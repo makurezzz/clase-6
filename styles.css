@@ -1,0 +1,29 @@
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.contenedor {
+    border: 0.3rem outset rgb(176, 169, 35) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;  
+    align-items: center;
+    gap: 1rem;
+}
+
+.contenedor_cuadrito {
+    background-color: rgb(202, 5, 251);
+    width: 200px;
+    height: 200px;
+    border: 0.1rem solid rgb(255, 0, 0);
+}
